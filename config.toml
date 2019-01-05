@@ -1,0 +1,33 @@
+baseURL = "https://christianhaudum.at/radio/"
+title = "Foundation Sound"
+theme = "paper"
+copyright = "&copy; 2018 Christian Haudum"
+languageCode = "en-us"
+
+[taxonomies]
+	tag = "tags"
+
+[author]
+  name = "Christian Haudum"
+  profile = "https://twitter.com/ApoxidDub"
+
+[params]
+  headline = "Foundation Sound"
+  description = "Website of the Foundation Sound Radio Show hosted by Apoxid on Radio Proton"
+  linkedin = "https://linkedin.com/in/christian.haudum"
+  twitter = "https://twitter.com/ApoxidDub"
+  opengraph = true
+  shareTwitter = true
+
+[permalinks]
+  post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 100
